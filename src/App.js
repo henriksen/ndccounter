@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Counter from './Counter';
+import Session from './Session';
 
-function App() {
+function App(props) {
   return (
     <div className="App">
       <header className="App-header">
-        <Counter />
+        <Session config={props.config} />
       </header>
     </div>
   );
